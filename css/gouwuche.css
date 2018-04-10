@@ -1,0 +1,134 @@
+.zuishang{
+	width: 100%;
+	height: 1.1rem;
+	background-color: #f8f8f8;
+	border-bottom: 0.02rem solid #dedede;
+	position: relative;
+}
+.zuishang h1{
+	font-size: 0.41rem;
+	line-height: 1.1rem;
+	text-align: center;
+
+}
+.zuishang h2{
+	font-size: 0.41rem;
+	line-height: 1.1rem;
+	position: absolute;
+	right: 0.1rem;
+	top: 0.05rem;
+}
+.xia{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.zuo{
+	left: 0.6rem;
+	top: 0.62rem;
+	position: absolute;
+	width: 0.42rem;
+
+	/*background-color: red;*/
+	height: 0.42rem;
+}
+.tu{
+	width: 2.79rem;
+	height: 2.79rem;
+	/*background-color: red;*/
+	position: absolute;
+	top: 0.5rem;
+	left: 2.1rem;
+}
+.xia h1{
+	font-size: 0.34rem;
+	position: absolute;
+	top: 0.7rem;
+	left: 5.35rem;
+}
+.xia h2{
+	font-size: 0.34rem;
+	position: absolute;
+	left: 5.35rem;
+	top: 2.7rem;
+}
+.shuliang{
+	width: 3.43rem;
+	height: 0.79rem;
+	/* background-color: red; */
+	/*border: 0.01rem solid red;*/
+	position: absolute;
+	left: 7rem;
+	top: 2.5rem;
+}
+.shuliang img{
+	width: 3.43rem;
+	height: 0.79rem;
+}
+.hengxian{
+	width: 100%;
+	height: 0.06rem;
+	background-color: #dfdfdf;
+	position: absolute;
+	top: 5rem;
+	z-index: 999;
+}
+.zuidi{
+	width: 100%;
+	height: 1.56rem;
+	background-color: #f8f8f8;
+	position: absolute;
+	
+	bottom: 0;
+
+	padding-left: 1rem;
+}
+.zuidi_1{
+	float: left;
+}
+.zuidi_1 img{
+	width: 0.97rem;
+	height: 1.56rem;
+	margin-right: 1.52rem;
+
+}
+#didige{
+	margin-right: 0;
+}
+.jiesuan{
+	height: 1.58rem;
+	width: 100%;
+	border-top: 0.02rem solid #dfdfdf;
+	position: absolute;
+	bottom: 1.56rem;
+}
+.jiesuan span{
+	font-size: 0.39rem;
+	line-height: 1.58rem;
+	left: 0.75rem;
+	position: absolute;
+}
+.jiesuan h1{
+	font-size: 0.39rem;
+	font-weight: 400;
+	line-height: 1.58rem;
+	position: absolute;
+	left: 2.25rem;
+	color: red;
+}
+.qujiesuan{
+	height: 1.56rem;
+	width: 2.94rem;
+	background-color: #ff6700;
+	position: absolute;
+	right: 0;
+	top: 0.02rem;
+
+}
+.qujiesuan h2{
+	font-size: 0.39rem;
+	color: #fff;
+	line-height: 1.56rem;
+	text-align: center;
+
+}

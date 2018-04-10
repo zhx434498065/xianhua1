@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/rem.js"></script><!-- 引入js -->
+</head>
+<body id="body">
+	<div class="hh">
+	<!-- 最上开始 -->
+	<div class="zuishang">
+		<h1>首页</h1>
+	</div>
+	<!-- 最上结束 -->
+
+	<!-- banner开始 -->
+	<div class="banner">
+		<img src="img/a.png" alt="">
+	</div>
+	<!-- banner结束 -->
+	
+		<div class="xuanxiang" id="xx1">
+			<img src="img/b.png" alt="">
+		</div>
+		<div class="xuanxiang xuanxiang1">
+			<img src="img/b.png" alt="">
+		</div>
+		<div class="xuanxiang">
+			<img src="img/b.png" alt="">
+		</div>
+		<div class="xuanxiang">
+			<img src="img/b.png" alt="">
+		</div>
+	</div>
+	<div class="zuidi">
+		<div class="zuidi_1">
+			<a href="index.html"><img src="img/ff.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="fenlei.html"><img src="img/445.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="gouwuche.html"><img src="img/3.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="wode.html"><img src="img/4.png" alt="" id="didige"></a>
+		</div>
+	</div>
+
+
+
+
+	<div class="xiangqingye">
+		<div class="xiangqng">
+			<div class="xq_shang">
+				<div class="fanhui"><</div>
+				<img src="img/hua.png" alt="">
+				<div class="xieshu">1/4</div>
+			</div>
+			<div class="xx_1">
+				<img src="img/a1.png" alt="">
+			</div>
+			<div class="xx_2">
+				<img src="img/a2.png" alt="">
+			</div>
+			
+		</div>
+		<div class="xx_xia">
+
+			<div class="xx_xia_goumai">立即购买</div>
+			<div class="xx_xia_1">
+				<img src="img/a10.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let xx=document.querySelector("#xx1");
+		let xxx=document.querySelector(".xiangqingye");
+		let fanhui=document.querySelector(".fanhui");
+		xx.onclick=function () {
+			xxx.style.display="block";
+		}
+		fanhui.onclick=function () {
+		    xxx.style.display="none";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/wode.css">
+	<script src="js/rem.js"></script><!-- 引入js -->
+</head>
+<body>
+	<div class="tu">
+		<img src="img/S80223-192141_02.png" alt="">
+		<a href="shezhi.html"><div class="shezhi"></div></a>
+		<div class="ziji"></div>
+	</div>
+	<div class="zhong">
+		<h1>丨</h1>
+		<div class="zhong_zuo">
+			<img src="img/ka.png" alt="">
+		</div>
+		<h2>订单0</h2>
+		<div class="zhong_you">
+			<img src="img/ka1.png" alt="">
+		</div>
+		<h3>卡券0</h3>
+	</div>
+	<div class="hengxian"></div>
+	<div class="kuang">
+		<div class="lianxiren">
+			<div class="lianxiren_tubiao">
+				<img src="img/14.png" alt="">
+			</div>
+			<h1>我的联系人</h1>
+			<div class="lianxiren_jiao">&gt;</div>
+		</div>
+		
+	</div>
+	<div class="kuang">
+		<div class="lianxiren">
+			<div class="lianxiren_tubiao">
+				<img src="img/123.png" alt="">
+			</div>
+			<h1>管理收货地址</h1>
+			<div class="lianxiren_jiao">&gt;</div>
+		</div>
+		
+	</div>
+	<div class="kuang">
+		<div class="lianxiren">
+			<div class="lianxiren_tubiao">
+				<img src="img/S80223-192141_03.png" alt="">
+			</div>
+			<h1>购买说明</h1>
+			<div class="lianxiren_jiao">&gt;</div>
+		</div>
+		
+	</div>
+	<div class="kuang">
+		<div class="lianxiren lianxiren1">
+			<div class="lianxiren_tubiao">
+				<img src="img/213.png" alt="">
+			</div>
+			<h1>关于我们</h1>
+			<div class="lianxiren_jiao">&gt;</div>
+		</div>	
+	</div>
+
+	<div class="zuidi">
+		<div class="zuidi_1">
+			<a href="index.html"><img src="img/1.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="fenlei.html"><img src="img/445.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="gouwuche.html"><img src="img/3.png" alt=""></a>
+		</div>
+		<div class="zuidi_1">
+			<a href="wode.html"><img src="img/99.png" alt="" id="didige"></a>
+		</div>
+	</div>
+<div class="gerenjiemian">
+	<div class="geren_shang">
+		<div class="cha">×</div>
+		<div class="yanzheng">手机验证</div>
+		<div class="kefu">联系客服</div>
+	</div>
+	<div class="neirong">
+		<input type="text" placeholder="请输入手机号" style="width:6.5rem;height: 1rem" class="shurukuang">
+		<div class="yanzheng1">验证</div>
+	</div>
+	<div class="yanzheng_hong">
+		<p>收不到验证码?点击接受语音验证码</p>
+	</div>
+	<div class="yanzhengma">
+		<input type="text" placeholder="请输入验证码" style="width: 10.2rem;height: 1rem">
+	</div>
+	<div class="kaishi">开始</div>
+	<div class="xieyi">《用户服务协议》</div>
+</div>
+<div class="ziliao">
+	<div class="geren_shang geren_shang1">
+		<div class="fanhui1"><span><</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人资料</div>
+
+	</div>
+	<div class="ziliao_1">
+		<div class="tou">头像</div>
+		<div class="tou_tu_1"> ></div>
+		<div class="tou_tu">
+
+		</div>
+	</div>
+	<div class="ziliao_1 ziliao_11">
+		<div class="tou">会员名</div>
+
+		<div class="ming">123456</div>
+	</div>
+	<div class="ziliao_1 ziliao_12">
+		<div class="tou">昵称</div>
+		<div class="tou_tu_1"> ></div>
+
+	</div>
+	<div class="ziliao_1 ziliao_13">
+		<div class="tou">我的二维码名片</div>
+		<div class="tou_tu_1"> ></div>
+
+	</div>
+	<div class="ziliao_1 ziliao_14">
+		<div class="tou">我的二维码名片</div>
+		<div class="tou_tu_1"> ></div>
+
+	</div>
+</div>
+	<script>
+		let cha=document.querySelector(".cha");
+		let jiemian=document.querySelector(".gerenjiemian");
+		let shezhi=document.querySelector(".shezhi");
+		cha.onclick=function () {
+		    jiemian.style.display="none";
+		}
+//        shezhi.onclick=function () {
+//		    jiemian.style.display="block";
+//		}
+
+		let fanhui=document.querySelector(".fanhui1 span");
+		let jiemian1=document.querySelector(".ziliao");
+		let tu=document.querySelector(".ziji");
+		fanhui.onclick=function () {
+			jiemian1.style.display="none";
+        }
+        tu.onclick=function () {
+            jiemian1.style.display="block";
+        }
+	</script>
+</body>
+</html>

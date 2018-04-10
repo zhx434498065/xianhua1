@@ -1,0 +1,139 @@
+.zuishang{
+	width: 100%;
+	height: 1.1rem;
+	background-color: #f8f8f8;
+	border-bottom: 0.02rem solid #dedede;
+}
+.zuishang h1{
+	font-size: 0.41rem;
+	line-height: 1.1rem;
+	text-align: center;
+}
+.banner{
+	width: 100%;
+	height: 5.4rem;
+	/*background-color: blue;*/
+}
+.xia_zuo{
+	width: 2.76rem;
+	height: 100vh;
+	/*background-color: red;*/
+}
+.xuanxiang{
+	width: 5.08rem;
+	height: 7.33rem;
+	margin-top: 0.22rem;
+	margin-left: 0.16rem;
+	float: left;
+	box-shadow: 0 0 30px 1px  #d8d8d8;
+}
+#body{
+	width: 100vw;
+	height: 100vh;
+	/* overflow: hidden; */
+}
+/* .hh{
+	overflow-y: scroll;
+} */
+.zuidi{
+	width: 100%;
+	height: 1.56rem;
+	background-color: #f8f8f8;
+	position: absolute;
+	position: fixed;
+	bottom: 0;
+
+	padding-left: 1rem;
+}
+.zuidi_1{
+	float: left;
+}
+.zuidi_1 img{
+	width: 0.97rem;
+	height: 1.56rem;
+	margin-right: 1.52rem;
+
+}
+#didige{
+	margin-right: 0;
+}
+.xiangqingye{
+	display: none;
+}
+.xiangqng{
+	width: 100vw;
+	height: 100vh;
+	/*background-color: #000;*/
+	z-index:1;
+	position: fixed;
+	top:0;
+	overflow-y: scroll;
+
+}
+.fanhui{
+	position: absolute;
+	top:0.2rem;
+	left:0.2rem;
+	color: #ff6700;
+	/*z-index:2;*/
+}
+.xq_shang{
+	position: relative;
+	border-bottom:0.05rem solid #ccc;
+}
+.xieshu{
+	position: absolute;
+	bottom:0.2rem;
+	right:0.5rem;
+	background-color: #ccc;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 1rem;
+	font-size: 0.5rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+}
+.xx_xia{
+	height: 1.56rem;
+	background-color: #fff;
+	position: fixed;
+	bottom:0;
+	z-index:3;
+	width: 100%;
+}
+.xx_xia_goumai{
+	width: 50%;
+	height: 100%;
+	background-color: #ff6700;
+	position: absolute;
+	right:0;
+	line-height: 1.56rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.5rem;
+}
+.xx_1{
+	border-bottom:0.05rem solid #ccc;
+}
+.xx_2{
+	height:auto;
+}
+.xx_xia_1{
+	width: 50%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
